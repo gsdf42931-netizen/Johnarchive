@@ -4,8 +4,8 @@
   "name": "John Doe",
   "ascii": "liveterm",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "humpty": "humpty",
+    "babadook": "babadook"
   },
   "email": "contact@email.com",
   "ps1_hostname": "liveterm",

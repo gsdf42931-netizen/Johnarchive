@@ -58,37 +58,16 @@ export const email = async (args: string[]): Promise<string> => {
   return `Opening mailto:${config.email}...`;
 };
 
-export const github = async (args: string[]): Promise<string> => {
-  window.open(`https://github.com/${config.social.github}/`);
+export const humpty = async (args: string[]): Promise<string> => {
+  window.open(`https://imgur.com/a/iZEJszc/${config.social.github}/`);
 
-  return 'Opening github...';
+  return 'Opening humpty...';
 };
 
-export const linkedin = async (args: string[]): Promise<string> => {
-  window.open(`https://www.linkedin.com/in/${config.social.linkedin}/`);
+export const password = async (args: string[]): Promise<string> => {
+  window.open(`https://www.youtube.com/watch?v=CVA4VIsROXo/${config.social.linkedin}/`);
 
-  return 'Opening linkedin...';
-};
-
-// Search
-export const google = async (args: string[]): Promise<string> => {
-  window.open(`https://google.com/search?q=${args.join(' ')}`);
-  return `Searching google for ${args.join(' ')}...`;
-};
-
-export const duckduckgo = async (args: string[]): Promise<string> => {
-  window.open(`https://duckduckgo.com/?q=${args.join(' ')}`);
-  return `Searching duckduckgo for ${args.join(' ')}...`;
-};
-
-export const bing = async (args: string[]): Promise<string> => {
-  window.open(`https://bing.com/search?q=${args.join(' ')}`);
-  return `Wow, really? You are using bing for ${args.join(' ')}?`;
-};
-
-export const reddit = async (args: string[]): Promise<string> => {
-  window.open(`https://www.reddit.com/search/?q=${args.join(' ')}`);
-  return `Searching reddit for ${args.join(' ')}...`;
+  return 'Opening Youtube...';
 };
 
 // Typical linux commands
