@@ -3,37 +3,13 @@
 import * as bin from './index';
 import config from '../../../config.json';
 
-// Help
-export const help = async (args: string[]): Promise<string> => {
-  const commands = Object.keys(bin).sort().join(', ');
-  var c = '';
-  for (let i = 1; i <= Object.keys(bin).sort().length; i++) {
-    if (i % 7 === 0) {
-      c += Object.keys(bin).sort()[i - 1] + '\n';
-    } else {
-      c += Object.keys(bin).sort()[i - 1] + ' ';
-    }
-  }
-  return `Welcome! Here are all the available commands:
-\n${c}\n
-[tab]: trigger completion.
-[ctrl+l]/clear: clear terminal.\n
-Type 'sumfetch' to display summary.
-`;
-};
-
-// Redirection
-export const repo = async (args: string[]): Promise<string> => {
-  window.open(`${config.repo}`);
-  return 'Opening Github repository...';
-};
-
 // About
 export const about = async (args: string[]): Promise<string> => {
   return `Hi, I am ${config.name}. 
-Welcome to the John Archive 
-Enjoy your time here
-and come back to see more updates`;
+Welcome to the John Archive
+Each puzzle solved opens a door
+every puzzle revels more 
+using videos audio and photos`;
 };
 
 
@@ -113,9 +89,8 @@ export const lost = async (args?: string[]): Promise<string> => {
 };
 
 export const password = async (args?: string[]): Promise<string> => {
-  return `https://www.youtube.com/watch?v=CVA4VIsROXo/`;
+  return `https://www.youtube.com/watch?v=CVA4VIsROXo`;
 };
-
 // Banner
 export const banner = (args?: string[]): string => {
   return `
