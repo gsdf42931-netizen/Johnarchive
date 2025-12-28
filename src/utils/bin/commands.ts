@@ -108,29 +108,40 @@ fake
 directories`;
 };
 
-export const cd = async (args: string[]): Promise<string> => {
-  return `unfortunately, i cannot afford more directories.
-if you want to help, you can type 'donate'.`;
+export const bluddy = async (args: string[]): Promise<string> => {
+  return `have layers`;
 };
 
 export const date = async (args: string[]): Promise<string> => {
   return new Date().toString();
 };
 
-export const vi = async (args: string[]): Promise<string> => {
-  return `woah, you still use 'vi'? just try 'vim'.`;
+export const specs = async (args: string[]): Promise<string> => {
+  return `fucking numbskull`;
 };
 
-export const vim = async (args: string[]): Promise<string> => {
-  return `'vim' is so outdated. how about 'nvim'?`;
+export const andrew = async (args: string[]): Promise<string> => {
+  return `'the baba grandma`;
 };
 
-export const nvim = async (args: string[]): Promise<string> => {
-  return `'nvim'? too fancy. why not 'emacs'?`;
+export const babygrandma = async (args: string[]): Promise<string> => {
+  return `'how did you even fid this also andrew likes cock?`;
 };
 
-export const emacs = async (args?: string[]): Promise<string> => {
-  return `you know what? just use vscode.`;
+export const rocco = async (args?: string[]): Promise<string> => {
+  return `is fat.`;
+};
+
+export const Jordan = async (args?: string[]): Promise<string> => {
+  return `es a oger.`;
+};
+
+export const Chayce = async (args?: string[]): Promise<string> => {
+  return `is a lazy peice of shit.`;
+};
+
+export const guager = async (args?: string[]): Promise<string> => {
+  return `It's Me`;
 };
 
 export const sudo = async (args?: string[]): Promise<string> => {
@@ -138,20 +149,35 @@ export const sudo = async (args?: string[]): Promise<string> => {
   return `Permission denied: with little power comes... no responsibility? `;
 };
 
+
+export const Ock = async (args?: string[]): Promise<string> => {
+  return `montbuel`;
+};
+
+export const jordab = async (args?: string[]): Promise<string> => {
+  return `ey em not jordab.`;
+};
+
+export const brompton_cocktail = async (args?: string[]): Promise<string> => {
+  return `how did you even find this one`;
+};
+
+export const lost = async (args?: string[]): Promise<string> => {
+  return `https://www.youtube.com/watch?v=-4Ug-Axl7Lg&list=RD-4Ug-Axl7Lg&start_radio=1`;
+};
+
 // Banner
 export const banner = (args?: string[]): string => {
   return `
-█████        ███                       ███████████                                   
-░░███        ░░░                       ░█░░░███░░░█                                   
- ░███        ████  █████ █████  ██████ ░   ░███  ░   ██████  ████████  █████████████  
- ░███       ░░███ ░░███ ░░███  ███░░███    ░███     ███░░███░░███░░███░░███░░███░░███ 
- ░███        ░███  ░███  ░███ ░███████     ░███    ░███████  ░███ ░░░  ░███ ░███ ░███ 
- ░███      █ ░███  ░░███ ███  ░███░░░      ░███    ░███░░░   ░███      ░███ ░███ ░███ 
- ███████████ █████  ░░█████   ░░██████     █████   ░░██████  █████     █████░███ █████
-░░░░░░░░░░░ ░░░░░    ░░░░░     ░░░░░░     ░░░░░     ░░░░░░  ░░░░░     ░░░░░ ░░░ ░░░░░ 
+     ██╗██████╗██╗  █████╗   ██╗     █████╗██████╗ ████████╗  ██████╗   █████████╗   ███╗   █████████████████╗
+     ████╔═══████║  ██████╗  ██║    ██╔══████╔══████╔════██║  ██████║   ████╔════╝   ████╗  ████╔════╚══██╔══╝
+     ████║   ███████████╔██╗ ██║    █████████████╔██║    ███████████║   ███████╗     ██╔██╗ ███████╗    ██║   
+██   ████║   ████╔══████║╚██╗██║    ██╔══████╔══████║    ██╔══████╚██╗ ██╔██╔══╝     ██║╚██╗████╔══╝    ██║   
+╚█████╔╚██████╔██║  ████║ ╚████║    ██║  ████║  ██╚████████║  ████║╚████╔╝███████ ██ ██║ ╚███████████╗  ██║   
+ ╚════╝ ╚═════╝╚═╝  ╚═╚═╝  ╚═══╝    ╚═╝  ╚═╚═╝  ╚═╝╚═════╚═╝  ╚═╚═╝ ╚═══╝ ╚══════╚═╚  ═╝  ╚═══╚══════╝  ╚═╝   
+                                                                                                            
 
-Type 'help' to see the list of available commands.
-Type 'sumfetch' to display summary.
-Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
+Welcome to the John Archive
+Please enter the password to progress
 `;
 };
