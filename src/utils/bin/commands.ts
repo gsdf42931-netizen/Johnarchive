@@ -31,44 +31,11 @@ export const repo = async (args: string[]): Promise<string> => {
 // About
 export const about = async (args: string[]): Promise<string> => {
   return `Hi, I am ${config.name}. 
-Welcome to my website!
-More about me:
-'sumfetch' - short summary.
-'resume' - my latest resume.
-'readme' - my github readme.`;
+Welcome to the John Archive 
+Enjoy your time here
+and come back to see more updates`;
 };
 
-export const resume = async (args: string[]): Promise<string> => {
-  window.open(`${config.resume_url}`);
-  return 'Opening resume...';
-};
-
-// Donate
-export const donate = async (args: string[]): Promise<string> => {
-  return `thank you for your interest. 
-here are the ways you can support my work:
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.patreon}" target="_blank">patreon</a></u>
-`;
-};
-
-// Contact
-export const email = async (args: string[]): Promise<string> => {
-  window.open(`mailto:${config.email}`);
-  return `Opening mailto:${config.email}...`;
-};
-
-export const humpty = async (args: string[]): Promise<string> => {
-  window.open(`https://imgur.com/a/iZEJszc/${config.social.github}/`);
-
-  return 'Opening humpty...';
-};
-
-export const password = async (args: string[]): Promise<string> => {
-  window.open(`https://www.youtube.com/watch?v=CVA4VIsROXo/${config.social.linkedin}/`);
-
-  return 'Opening Youtube...';
-};
 
 // Typical linux commands
 export const echo = async (args: string[]): Promise<string> => {
@@ -143,6 +110,10 @@ export const brompton_cocktail = async (args?: string[]): Promise<string> => {
 
 export const lost = async (args?: string[]): Promise<string> => {
   return `https://www.youtube.com/watch?v=-4Ug-Axl7Lg&list=RD-4Ug-Axl7Lg&start_radio=1`;
+};
+
+export const password = async (args?: string[]): Promise<string> => {
+  return `https://www.youtube.com/watch?v=CVA4VIsROXo/`;
 };
 
 // Banner
