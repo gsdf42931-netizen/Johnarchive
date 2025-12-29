@@ -43,7 +43,7 @@ export const specs = async (args: string[]): Promise<string> => {
 };
 
 export const andrew = async (args: string[]): Promise<string> => {
-  return `'the baby grandma`;
+  return `'the baba grandma`;
 };
 
 export const babygrandma = async (args: string[]): Promise<string> => {
@@ -72,7 +72,7 @@ export const sudo = async (args?: string[]): Promise<string> => {
 };
 
 
-export const ock = async (args?: string[]): Promise<string> => {
+export const Ock = async (args?: string[]): Promise<string> => {
   return `montbuel`;
 };
 
@@ -88,49 +88,6 @@ export const lost = async (args?: string[]): Promise<string> => {
   return `https://www.youtube.com/watch?v=-4Ug-Axl7Lg&list=RD-4Ug-Axl7Lg&start_radio=1`;
 };
 
-export const password = async (args?: string[]): Promise<string> => {
-  return `https://www.youtube.com/watch?v=CVA4VIsROXo`;
-};
-
-export const john = async (args?: string[]): Promise<string> => {
-  return `https://imgur.com/a/A4mM8bd`;
-};
-
-export const jelq = async (args?: string[]): Promise<string> => {
-  return `the goat`;
-};
-
-export const cooper = async (args?: string[]): Promise<string> => {
-  return `"I just love to stream Fl and cough into the mic" `;
-};
-
-export const chayce = async (args?: string[]): Promise<string> => {
-  return `https://imgur.com/a/X7HpEvg`;
-};
-
-export const Martin = async (args?: string[]): Promise<string> => {
-  return `jojo's memes`;
-};
-
-export const noodle = async (args?: string[]): Promise<string> => {
-  return `what if i was the worst fortnite player ever`;
-};
-
-export const umer = async (args?: string[]): Promise<string> => {
-  return `ive never had sushi`;
-};
-
-export const jp = async (args?: string[]): Promise<string> => {
-  return `the gloy days playing og fort with jp the good ol times`;
-};
-
-export const octavius = async (args?: string[]): Promise<string> => {
-  return `Monty`;
-};
-
-export const lewis = async (args?: string[]): Promise<string> => {
-  return `closted pedo`;
-};
 // Banner
 export const banner = (args?: string[]): string => {
   return `
