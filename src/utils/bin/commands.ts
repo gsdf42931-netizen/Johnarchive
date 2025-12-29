@@ -72,7 +72,7 @@ export const sudo = async (args?: string[]): Promise<string> => {
 };
 
 
-export const Ock = async (args?: string[]): Promise<string> => {
+export const ock = async (args?: string[]): Promise<string> => {
   return `montbuel`;
 };
 
@@ -108,6 +108,29 @@ export const chayce = async (args?: string[]): Promise<string> => {
   return `https://imgur.com/a/X7HpEvg`;
 };
 
+export const Martin = async (args?: string[]): Promise<string> => {
+  return `jojo's memes`;
+};
+
+export const noodle = async (args?: string[]): Promise<string> => {
+  return `what if i was the worst fortnite player ever`;
+};
+
+export const umer = async (args?: string[]): Promise<string> => {
+  return `ive never had sushi`;
+};
+
+export const jp = async (args?: string[]): Promise<string> => {
+  return `the gloy days playing og fort with jp the good ol times`;
+};
+
+export const octavius = async (args?: string[]): Promise<string> => {
+  return `Monty`;
+};
+
+export const lewis = async (args?: string[]): Promise<string> => {
+  return `closted pedo`;
+};
 // Banner
 export const banner = (args?: string[]): string => {
   return `
