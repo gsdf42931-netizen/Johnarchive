@@ -143,6 +143,14 @@ export const niko = async (args?: string[]): Promise<string> => {
 export const antonio = async (args?: string[]): Promise<string> => {
   return `cleaver kid`;
 };
+
+export const myname = async (args?: string[]): Promise<string> => {
+  return `revalution`;
+};
+
+export const whenwasiborn = async (args?: string[]): Promise<string> => {
+  return `68`;
+};
 // Banner
 export const banner = (args?: string[]): string => {
   return `
