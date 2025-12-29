@@ -43,7 +43,7 @@ export const specs = async (args: string[]): Promise<string> => {
 };
 
 export const andrew = async (args: string[]): Promise<string> => {
-  return `'the baba grandma`;
+  return `'the baby grandma`;
 };
 
 export const babygrandma = async (args: string[]): Promise<string> => {
@@ -91,6 +91,23 @@ export const lost = async (args?: string[]): Promise<string> => {
 export const password = async (args?: string[]): Promise<string> => {
   return `https://www.youtube.com/watch?v=CVA4VIsROXo`;
 };
+
+export const john = async (args?: string[]): Promise<string> => {
+  return `https://imgur.com/a/A4mM8bd`;
+};
+
+export const jelq = async (args?: string[]): Promise<string> => {
+  return `the goat`;
+};
+
+export const cooper = async (args?: string[]): Promise<string> => {
+  return `"I just love to stream Fl and cough into the mic" `;
+};
+
+export const chayce = async (args?: string[]): Promise<string> => {
+  return `https://imgur.com/a/X7HpEvg`;
+};
+
 // Banner
 export const banner = (args?: string[]): string => {
   return `
